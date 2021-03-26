@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(rgb(9, 150, 231),rgb(27, 214, 173));
+    color: white;
+}
+
+.location{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 100px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+
+}
+
+.temperature{
+    display: flex;
+    width: 400px;
+    flex-direction: row !important;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+
+}
+
+.location h3, .temperature h3{
+    font-weight: 400;
+}
